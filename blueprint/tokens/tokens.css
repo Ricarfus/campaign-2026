@@ -1,0 +1,50 @@
+/* Potié / Biggar — tokens v0. Generated from tokens.json; keep in sync. */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap");
+
+:root {
+  --paper: #F1EFEA;
+  --paper-2: #E4E1DA;
+  --ink: #121212;
+  --ink-muted: #55524C;
+  --rule: #C9C5BC;
+  --stone: #A39E93;
+  --forest: #23372B;
+  --on-forest: #F1EFEA;
+  --font-display: "Archivo Narrow", "Arial Narrow", sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 40px;
+  --space-6: 64px;
+  --space-7: 104px;
+  --radius-0: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+}
+
+/* Dark theme: add data-theme="dark" to <html>, or follow the OS setting. */
+:root[data-theme="dark"] {
+  --paper: #121212;
+  --paper-2: #1E1E1C;
+  --ink: #EDEAE4;
+  --ink-muted: #A8A39A;
+  --rule: #3A3834;
+  --stone: #6B675F;
+  --forest: #7E9C86;
+  --on-forest: #121212;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121212;
+    --paper-2: #1E1E1C;
+    --ink: #EDEAE4;
+    --ink-muted: #A8A39A;
+    --rule: #3A3834;
+    --stone: #6B675F;
+    --forest: #7E9C86;
+    --on-forest: #121212;
+  }
+}
